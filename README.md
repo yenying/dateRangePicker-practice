@@ -1,5 +1,12 @@
 # Getting Started with DateRangePicker
 
+## RangePicker 已實作功能
+
+1. 當滑鼠移到非當月份日期，沒有指標效果，文字顏色是#757575
+2. 日期Hover: #e6e6e6 Today: #ffff76 Active: #006edc
+3. 可切換月份顯示
+4. 一開始顯示當前月份
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,8 +44,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
