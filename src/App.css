@@ -36,3 +36,91 @@
     transform: rotate(360deg);
   }
 }
+
+.calendar {
+  width:350px;
+  height: 240px;
+}
+.calendarHeader {
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  height: 44px;
+  margin-bottom: 16px;
+}
+button {
+  background:#ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  height: 44px;
+  width: 44px;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+.prevMonth:after {
+  content:' < '
+}
+
+.nextMonth:after {
+  content:' > '
+}
+
+.currentMonth {
+  cursor: pointer;
+}
+
+.days {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+.day {
+  width: 30px;
+  text-align: center;
+}
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.pre-date,.next-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  width:50px;
+  height:36px;
+  color: #757575;
+}
+
+.date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  width:50px;
+  height:36px;
+  cursor: pointer;
+}
+
+.date:hover {
+  background:#e6e6e6
+}
+
+.today {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  width:50px;
+  height:36px;
+  background: yellow;
+}
