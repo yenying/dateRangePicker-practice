@@ -1,12 +1,5 @@
 # Getting Started with DateRangePicker
 
-## RangePicker 已實作功能
-
-1. 當滑鼠移到非當月份日期，沒有指標效果，文字顏色是#757575
-2. 日期Hover: #e6e6e6 Today: #ffff76 Active: #006edc
-3. 可切換月份顯示
-4. 一開始顯示當前月份
-
 ## Available Scripts
 
 In the project directory, you can run:
